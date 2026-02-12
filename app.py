@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # Load models
-crop_model = pickle.load(open("models/crop_model.pkl", "rb"))
-fertilizer_model = pickle.load(open("models/fertilizer_model.pkl", "rb"))
+crop_model = pickle.load(open("Models/crop_model.pkl", "rb"))
+fertilizer_model = pickle.load(open("Models/fertilizer_model.pkl", "rb"))
 
 st.title("🌾 Crop & Fertilizer Recommendation System")
 
